@@ -1,8 +1,6 @@
 body {
   background: url(../images/bKRUo4evG5.png) no-repeat center center fixed;
   background-size: cover;
-  position: relative;
-  overflow: hidden;
 }
 
 .online-conference-section {
@@ -131,6 +129,11 @@ body {
 .conference-form-block form .social-login {
   margin-top: 30px;
 }
+@media (max-width: 500px) {
+  .conference-form-block form .social-login {
+    text-align: center;
+  }
+}
 
 .conference-form-block form .social-login .description {
   text-align: center;
@@ -164,6 +167,12 @@ body {
   margin: 0 3px 20px 0;
   padding: 10px;
   width: 49%;
+}
+@media (max-width: 500px) {
+  .conference-form-block form .social-login .btn-blue {
+    width: 80%;
+    float: none;
+  }
 }
 
 .btn-blue {
