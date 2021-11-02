@@ -1,0 +1,177 @@
+.online-conference-section {
+    min-height: 700px;
+    background: url(../images/bKRUo4evG5.png) no-repeat;
+    position: relative;
+    background-size: cover;
+    color: #000;
+    overflow: hidden;
+}
+
+.online-conference-section .header-block {
+    padding: 10px;
+}
+
+.online-conference-section .conference-description-block {
+    float: left;
+    margin-top: 60px;
+}
+
+.online-conference-section .conference-description-block h1 {
+    color: #fff;
+    font-family: "ProximaNova-Black";
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.866px 2px rgba(0, 0, 0, 0.3);
+    line-height: 1.24;
+    font-size: 58px;
+}
+
+.online-conference-section .conference-description-block h2 {
+    margin-top: 30px;
+    color: #fff;
+    font-family: "ProximaNova-Black";
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.866px 2px rgba(0, 0, 0, 0.3);
+    line-height: 1.24;
+    font-size: 42px;
+}
+
+.conference-form-block {
+    width: 100%;
+    margin-top: 60px;
+    float: right;
+}
+
+.conference-form-block form {
+    float: right;
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .conference-form-block form {
+        width: 100%;
+    }
+}
+
+.conference-form-block form .form-description {
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 10px;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: "ProximaNova-Bold";
+}
+
+@media (max-width: 400px) {
+    .conference-form-block form .form-description {
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+}
+
+.conference-form-block form .form-group.field-email {
+    margin-bottom: 20px;
+}
+
+.conference-form-block form .form-description .authoriz {
+    border-radius: 10px;
+    border: 1px solid #fd6d22;
+    position: relative;
+    overflow: hidden;
+    padding: 9px 32px 9px 32px;
+    color: #fff;
+    background: #fd6d22;
+}
+
+.conference-form-block form .form-description .registration {
+    padding: 9px 0 0 32px;
+    color: #1ba5de;
+    text-decoration: none;
+}
+
+.conference-form-block form .form-description .registration:hover {
+    color: #fd6d22;
+}
+
+@media (max-width: 400px) {
+    .conference-form-block form .form-description .registration {
+        padding: 0;
+    }
+}
+
+.conference-form-block form .form-group input {
+    padding: 10px 15px;
+    display: table;
+    border: 1px solid #fd6d22;
+    border-radius: 8px;
+    margin: 0 auto 10px;
+    outline: none;
+    width: 100%;
+}
+
+.conference-form-block form .login-block button {
+    float: right;
+    border-radius: 10px;
+    border: 1px solid #fd6d22;
+    position: relative;
+    overflow: hidden;
+    padding: 9px 32px 9px 32px;
+    color: #fff;
+    background: #fd6d22;
+}
+
+.conference-form-block form .login-block .help-btn {
+    color: #1ba5de;
+}
+
+.conference-form-block form .social-login {
+    margin-top: 30px;
+}
+
+.conference-form-block form .social-login .description {
+    text-align: center;
+    font-size: 25px;
+    color: #000;
+    font-family: ProximaNova-Bold;
+    margin: 0 0 20px;
+}
+
+.btn-blue {
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.eauth-service-link {
+    position: relative;
+    text-align: center;
+}
+
+.eauth-service-link.facebook {
+    background: #354ca1;
+}
+
+.eauth-service-link.google {
+    float: right;
+    background-color: #db4e3f;
+}
+
+.conference-form-block form .social-login .btn-blue {
+    margin: 0 3px 20px 0;
+    padding: 10px;
+    width: 49%;
+}
+
+.btn-blue {
+    font-family: ProximaNova-Bold;
+    padding: 8px;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+}
